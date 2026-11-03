@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "yukyu-skills",
+  "description": "yukyu30 の Claude Code skills",
+  "owner": { "name": "yukyu30" },
+  "plugins": [
+    {
+      "name": "blog-writing",
+      "source": "./plugins/blog-writing",
+      "description": "日本語の技術ブログを書く・レビューするためのスキル集",
+      "version": "0.1.0",
+      "category": "writing"
+    },
+    {
+      "name": "stop-ai-slop-jp",
+      "source": { "source": "github", "repo": "iKora128/stop-ai-slop-jp" },
+      "description": "AIで書いた日本語を人間が書いた文章に戻すスキル（外部参照）",
+      "strict": false,
+      "skills": ["./"],
+      "category": "writing"
+    }
+  ]
+}
