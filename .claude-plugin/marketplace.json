@@ -18,6 +18,19 @@
       "strict": false,
       "skills": ["./"],
       "category": "writing"
+    },
+    {
+      "name": "pstack",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cursor/plugins.git",
+        "path": "pstack"
+      },
+      "description": "Cursor 製の agent workflow 集 pstack（外部参照）",
+      "strict": false,
+      "skills": "./skills/",
+      "agents": ["./agents/comment-sicko.md", "./agents/poteto-agent.md"],
+      "category": "development"
     }
   ]
 }
