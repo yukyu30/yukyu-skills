@@ -12,6 +12,19 @@
       "category": "writing"
     },
     {
+      "name": "furigana-code",
+      "source": "./plugins/furigana-code",
+      "description": "コードの各行にふりがなのような注釈を添えて読み解くスキル",
+      "version": "0.1.0",
+      "category": "development"
+    },
+    {
+      "name": "i-have-adhd",
+      "source": { "source": "github", "repo": "ayghri/i-have-adhd" },
+      "description": "ADHD の読み手向けに、次の行動を先頭に置いて手順を番号で示す出力に整える（外部参照）",
+      "category": "productivity"
+    },
+    {
       "name": "stop-ai-slop-jp",
       "source": { "source": "github", "repo": "iKora128/stop-ai-slop-jp" },
       "description": "AIで書いた日本語を人間が書いた文章に戻すスキル（外部参照）",

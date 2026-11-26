@@ -1,0 +1,6 @@
+{
+  "name": "furigana-code",
+  "description": "コードの各行にふりがなのような注釈を添えて読み解くスキル",
+  "version": "0.1.0",
+  "author": { "name": "yukyu30" }
+}

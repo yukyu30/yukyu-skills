@@ -1,0 +1,4 @@
+interface:
+  display_name: "ふりがな付きコード解説"
+  short_description: "コードの各行に注釈を添えて、何をしていてなぜ書くのかを読み解く"
+  default_prompt: "$furigana-code で、このコードを1行ずつ注釈付きで読み解いてください。"
